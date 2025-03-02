@@ -43,6 +43,7 @@ public class LoginPageSteps {
     @When("Click Login")
     public void click_login() {
         loginPage.clickLogin();
+
     }
 
     @Then("User is login to application")
